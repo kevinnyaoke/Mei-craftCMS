@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: scholarship
+name: Scholarship
+propagationMethod: all
+siteSettings:
+  347fb537-1b10-43af-aa22-3b9c7df0448f:
+    enabledByDefault: true
+    hasUrls: true
+    template: admission\scholarship
+    uriFormat: 'admission/scholarship/{slug}'
+structure:
+  maxLevels: null
+  uid: 08445fd3-cf58-4538-8c44-bb8722e901e0
+type: structure

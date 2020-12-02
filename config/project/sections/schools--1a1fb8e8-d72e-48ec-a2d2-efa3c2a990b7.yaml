@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: schools
+name: Schools
+propagationMethod: all
+siteSettings:
+  347fb537-1b10-43af-aa22-3b9c7df0448f:
+    enabledByDefault: true
+    hasUrls: true
+    template: academics\schools
+    uriFormat: academics/schools
+structure:
+  maxLevels: null
+  uid: 1dccacb0-7487-4606-8988-4b5674afda3a
+type: structure

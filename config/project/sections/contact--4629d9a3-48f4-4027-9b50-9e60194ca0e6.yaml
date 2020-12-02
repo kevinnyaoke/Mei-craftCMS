@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: contact
+name: Contact
+propagationMethod: all
+siteSettings:
+  347fb537-1b10-43af-aa22-3b9c7df0448f:
+    enabledByDefault: true
+    hasUrls: true
+    template: contact
+    uriFormat: 'contact/{slug}'
+structure:
+  maxLevels: null
+  uid: 98b7f180-29ea-49b3-af25-d2312fb11495
+type: structure

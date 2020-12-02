@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: exam
+name: Exam
+propagationMethod: all
+siteSettings:
+  347fb537-1b10-43af-aa22-3b9c7df0448f:
+    enabledByDefault: true
+    hasUrls: true
+    template: academics\exams
+    uriFormat: academics/exam
+structure:
+  maxLevels: null
+  uid: 6d41300a-4f25-47c1-81ca-801d835a57f7
+type: structure

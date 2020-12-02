@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: fee
+name: Fee
+propagationMethod: all
+siteSettings:
+  347fb537-1b10-43af-aa22-3b9c7df0448f:
+    enabledByDefault: true
+    hasUrls: true
+    template: admission\fee
+    uriFormat: 'admission/fee/{slug}'
+structure:
+  maxLevels: null
+  uid: 8fdda822-0ebb-49df-8ea8-766536dd92ce
+type: structure

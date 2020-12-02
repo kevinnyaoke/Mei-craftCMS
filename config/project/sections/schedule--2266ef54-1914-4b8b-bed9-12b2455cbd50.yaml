@@ -1,0 +1,14 @@
+enableVersioning: true
+handle: schedule
+name: Schedule
+propagationMethod: all
+siteSettings:
+  347fb537-1b10-43af-aa22-3b9c7df0448f:
+    enabledByDefault: true
+    hasUrls: true
+    template: academics\schedule
+    uriFormat: schedule/schedule
+structure:
+  maxLevels: null
+  uid: 51830600-5fc6-4772-9c10-80719159bbee
+type: structure
