@@ -1,5 +1,5 @@
 fieldLayouts:
-  cde72b09-6161-4e5b-832a-98a96c4f8258:
+  c6646a7e-cb01-4c85-ba32-ab58e713af97:
     tabs:
       -
         elements:
@@ -26,13 +26,22 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
+          -
+            fieldUid: c7321563-1442-4106-8ac4-8fb704f32b30
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
-handle: aboutalumni
+handle: pages
 hasTitleField: true
-name: AboutAlumni
-section: a0310744-fdbd-44cc-a7ba-3042cb85ddc4
+name: Pages
+section: a33a073b-15ff-49f7-9d47-1e80709c0e74
 sortOrder: 1
-titleFormat: null
+titleFormat: title
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

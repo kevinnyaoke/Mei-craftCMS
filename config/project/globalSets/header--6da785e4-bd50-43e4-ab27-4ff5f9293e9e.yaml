@@ -1,0 +1,54 @@
+fieldLayouts:
+  9693dd27-4435-4e32-97b5-94f24073ba7f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 971de349-e94d-4322-8b0d-00ad46dc89dc
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c9f4341b-ab6b-4ec6-a90a-d530baa43734
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 734e77de-9fcf-443c-8e0d-0a2512ab8676
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 80672d7d-1690-47a4-904e-14e353770526
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0348ab67-1309-4352-b4c7-50d888e4193f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: header
+name: Header

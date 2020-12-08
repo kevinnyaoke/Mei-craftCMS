@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 89a801dc-4207-40dc-9685-25404b21694d
+handle: academics
+instructions: ''
+name: Academics
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_academics}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

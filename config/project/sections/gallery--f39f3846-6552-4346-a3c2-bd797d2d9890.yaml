@@ -7,8 +7,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: gallery
-    uriFormat: 'gallery/{slug}'
-structure:
-  maxLevels: null
-  uid: 871ab187-3dd1-4a3b-a4bb-9ad59e0451b6
-type: structure
+    uriFormat: gallery
+type: single

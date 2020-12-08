@@ -1,14 +1,14 @@
 enableVersioning: true
-handle: contact
-name: Contact
+handle: pages
+name: Pages
 propagationMethod: all
 siteSettings:
   347fb537-1b10-43af-aa22-3b9c7df0448f:
     enabledByDefault: true
     hasUrls: true
-    template: contact
-    uriFormat: 'contact/{slug}'
+    template: pages\_entry
+    uriFormat: '{parent.uri}/{slug}'
 structure:
   maxLevels: null
-  uid: 98b7f180-29ea-49b3-af25-d2312fb11495
+  uid: 53181348-b700-4aec-8cd7-acec6aed6385
 type: structure

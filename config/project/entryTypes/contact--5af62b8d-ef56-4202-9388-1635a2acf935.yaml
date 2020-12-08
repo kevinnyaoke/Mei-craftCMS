@@ -1,5 +1,5 @@
 fieldLayouts:
-  1f24db5c-988c-4e3a-a40f-22b9a85dfc79:
+  85eda2dc-e12f-4973-9cc4-dea2ae7fa120:
     tabs:
       -
         elements:
@@ -28,11 +28,11 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: scholarship
-hasTitleField: true
-name: Scholarship
-section: a22993d6-7a8a-468f-9ac2-e2ddc3b6439e
+handle: contact
+hasTitleField: false
+name: Contact
+section: 721d595b-1310-457f-856e-9e1c16b0f412
 sortOrder: 1
-titleFormat: null
+titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

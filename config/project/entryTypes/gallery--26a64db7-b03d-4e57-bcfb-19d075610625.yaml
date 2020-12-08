@@ -1,5 +1,5 @@
 fieldLayouts:
-  bb8e5e61-e950-4942-9780-d6c714763604:
+  919bf5a6-1dcf-47eb-bcc8-246b4da07d08:
     tabs:
       -
         elements:
@@ -28,11 +28,11 @@ fieldLayouts:
             width: 100
         name: Content
         sortOrder: 1
-handle: fee
-hasTitleField: true
-name: Fee
-section: a6b822e1-e0e3-4b3d-a5de-0ea3b8d37dfa
+handle: gallery
+hasTitleField: false
+name: Gallery
+section: f39f3846-6552-4346-a3c2-bd797d2d9890
 sortOrder: 1
-titleFormat: null
+titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
