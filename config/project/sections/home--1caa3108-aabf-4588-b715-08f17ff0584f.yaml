@@ -6,6 +6,6 @@ siteSettings:
   347fb537-1b10-43af-aa22-3b9c7df0448f:
     enabledByDefault: true
     hasUrls: true
-    template: home
+    template: index
     uriFormat: __home__
 type: single

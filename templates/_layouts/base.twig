@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+{% include "_includes/head" %}
+
+<body>
+
+  <div class="relative bg-gray-50">
+
+
+    {% include "_includes/header" %}
+
+    {% block content %}    
+
+    {# #}
+    
+    {% endblock %}
+
+
+  {% include "_includes/footer" %}
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+</body>
+
+</html>
