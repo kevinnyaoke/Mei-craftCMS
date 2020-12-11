@@ -1,9 +1,13 @@
-dateModified: 1607463553
+dateModified: 1607697937
 email:
   fromEmail: qevinodhiambo@gmail.com
   fromName: Mei
   transportType: craft\mail\transportadapters\Sendmail
 plugins:
+  cheat-sheet:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   redactor:
     edition: standard
     enabled: true

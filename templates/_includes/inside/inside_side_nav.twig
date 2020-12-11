@@ -16,7 +16,7 @@
                 {% nav page in pages %}
 
                   <li class="text-base truncate">
-                    <a href="{{page.url}}" class="font-medium text-gray-900 hover:text-gray-700">
+                    <a href="{{page.url}}" class="{% if page.id == entry.id %} font-bold {% else %} font-medium {% endif %} text-gray-900 hover:text-gray-700">
                       {{ page.title }}
                     </a>
                   </li>

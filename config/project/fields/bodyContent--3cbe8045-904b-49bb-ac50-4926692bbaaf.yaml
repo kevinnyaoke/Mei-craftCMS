@@ -1,11 +1,11 @@
 contentColumnType: string
-fieldGroup: cfeacf29-a9a2-4dd0-8566-09319a280117
-handle: navigation
+fieldGroup: 5bcd0203-19a2-4abc-af8a-aef6269e6b40
+handle: bodyContent
 instructions: ''
-name: Navigation
+name: 'Body Content'
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_navigation}}'
+  contentTable: '{{%matrixcontent_bodycontent}}'
   maxBlocks: ''
   minBlocks: ''
   propagationMethod: all

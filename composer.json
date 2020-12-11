@@ -2,6 +2,7 @@
   "require": {
     "craftcms/cms": "^3.5.10",
     "craftcms/redactor": "2.8.5",
+    "focuslabllc/craft-cheat-sheet": "2.0.3",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {

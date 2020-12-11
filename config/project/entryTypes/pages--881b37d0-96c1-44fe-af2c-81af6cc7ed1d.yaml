@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: null
-            label: null
+            instructions: ''
+            label: 'Page title'
             max: null
             min: null
             name: null
@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: c7321563-1442-4106-8ac4-8fb704f32b30
+            fieldUid: 3cbe8045-904b-49bb-ac50-4926692bbaaf
             instructions: null
             label: null
             required: false
