@@ -3,29 +3,32 @@
 
 
 <div class="flex flex-col rounded-lg border border-gray-300 overflow-hidden">
-            <h3 class="block text-xl font-semibold text-gray-900 border-b border-gray-300 px-4 py-3 uppercase">
-              {{ entry.parent.title }}
-            </h3>
-            <div class="flex-1 bg-white p-6 flex flex-col justify-between">
-              <div class="flex-1">
-              
-                <ul class="space-y-4">
+  <h3 class="block text-xl font-semibold text-gray-900 border-b border-gray-300 px-4 py-3 uppercase">
+    {{ entry.parent.title }}
+  </h3>
+  <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+    <div class="flex-1">
+
+      <ul class="space-y-4">
 
 
-                
-                {% nav page in pages %}
 
-                  <li class="text-base truncate">
-                    <a href="{{page.url}}" class="{% if page.id == entry.id %} font-bold {% else %} font-medium {% endif %} text-gray-900 hover:text-gray-700">
-                      {{ page.title }}
-                    </a>
-                  </li>
+        {% nav page in pages %}
 
-                {% endnav %}
-                
-              </ul>
-              </div>
-            </div>
+        <div class="flex-1 bg-white p-2 flex flex-col justify-between">
+          <div class="flex-1">
+            <li class=" {% if page.id == entry.id %} text-base truncate border-b p-4 bg-gray-50 {% endif %}">
+              <a href="{{page.url}}"
+                class="{% if page.id == entry.id %} font-bold {% else %} font-medium {% endif %} text-gray-900 hover:text-gray-700">
+                {{ page.title }}
+              </a>
+            </li>
           </div>
+        </div>
 
+        {% endnav %}
 
+      </ul>
+    </div>
+  </div>
+</div>

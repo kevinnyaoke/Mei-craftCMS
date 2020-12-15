@@ -1,0 +1,74 @@
+fieldLayouts:
+  f03e4bca-2c37-49e3-823c-f18ff464cb2d:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: Title
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 627988f1-a764-4f26-a78a-3b8ff9a69ff6
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5855e0bd-3066-48c4-9b31-0f7bfe06e7e7
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 230faa70-5d5d-410c-af76-bc4c3149d77b
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a885c858-018d-4eed-953d-b8de4e4ce942
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: blogPost
+hasTitleField: true
+name: 'Blog post'
+section: 66b3526e-692f-4aa7-95e5-dc3d7435af01
+sortOrder: 1
+titleFormat: Title
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

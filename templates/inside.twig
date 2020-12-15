@@ -31,18 +31,25 @@
           {% for block in entry.bodyContent %}
 
           {% switch block.type %}
-      
-            {% case "heading" %}
 
-              <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-               <br> {{block.heading}}
-              </h2>
+          {% case "heading" %}
+
+         <br> <h1 class="text-4xl mb-3 font-extrabold text-gray-900 sm:text-4xl">
+            {{block.heading}}
+          </h1>
+            
+
+              {% case "subheading" %}
+              <br> <h3 class="block text-xl font-semibold text-gray-900 border-b px-4 py-3 ">
+                {{block.subheading}}
+              </h3>
       
             {% case "paragraph" %}
             <p class="mt-4 text-lg leading-6 text-gray-700">{{block.text}}</p>
 
-            {% case "link" %}
+            {% case "file" %}
 
+            {% case "link" %}
           <li style="list-style: none;">
             <a href="" style="color: black; font-family: Symbola;"><strong><i class="fas fa-angle-double-right"></i> {{block.links}}</strong>
             </a>

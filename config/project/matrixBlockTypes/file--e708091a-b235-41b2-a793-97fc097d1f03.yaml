@@ -1,0 +1,57 @@
+field: 3cbe8045-904b-49bb-ac50-4926692bbaaf
+fieldLayouts:
+  79ea0eb7-f0e5-4aff-9732-301cc4b5977d:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b341b8fc-b098-4f3b-b674-1ab385ece94e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  b341b8fc-b098-4f3b-b674-1ab385ece94e:
+    contentColumnType: string
+    fieldGroup: null
+    handle: file
+    instructions: ''
+    name: File
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - excel
+        - pdf
+        - powerpoint
+        - word
+      defaultUploadLocationSource: 'volume:9101ffff-5eda-4b23-9561-17264561441a'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:9101ffff-5eda-4b23-9561-17264561441a'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: file
+name: File
+sortOrder: 5

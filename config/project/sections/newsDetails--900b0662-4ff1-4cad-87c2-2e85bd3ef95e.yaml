@@ -1,11 +1,11 @@
 enableVersioning: true
-handle: gallery
-name: Gallery
+handle: newsDetails
+name: 'News details'
 propagationMethod: all
 siteSettings:
   347fb537-1b10-43af-aa22-3b9c7df0448f:
     enabledByDefault: true
     hasUrls: true
-    template: gallery\index
-    uriFormat: gallery
-type: single
+    template: news-details
+    uriFormat: 'news-details/{slug}'
+type: channel

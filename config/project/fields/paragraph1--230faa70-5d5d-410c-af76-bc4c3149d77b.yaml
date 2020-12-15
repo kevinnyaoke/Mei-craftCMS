@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: a0b0d55f-0def-4b56-b114-9c1cafccb382
+handle: paragraph1
+instructions: ''
+name: Paragraph1
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
